@@ -61,7 +61,7 @@
 						</goals>
 						<configuration>
 							<transformers>
-                                <transformer implementation="net.burpcollaborator.v84lewqexklqy6597cm77vco0f65uu.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="com.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>hello.HelloWorld</mainClass>
 								</transformer>
 							</transformers>
